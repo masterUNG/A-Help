@@ -22,7 +22,7 @@ import com.squareup.okhttp.Response;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
-public class SettingActivity extends AppCompatActivity {
+public class SettingActivity extends AppCompatActivity implements View.OnClickListener {
 
     //Explicit
     private TextView phone1TextView, phone2TextView, phone3TextView,
@@ -51,8 +51,48 @@ public class SettingActivity extends AppCompatActivity {
         SynUser synUser = new SynUser(SettingActivity.this);
         synUser.execute(urlJSON);
 
+        //Image Controller
+        addPhone1ImageView.setOnClickListener(SettingActivity.this);
+        addPhone2ImageView.setOnClickListener(SettingActivity.this);
+        addPhone3ImageView.setOnClickListener(SettingActivity.this);
+        addPhone4ImageView.setOnClickListener(SettingActivity.this);
+        addPhone5ImageView.setOnClickListener(SettingActivity.this);
+
 
     }//Main Method
+
+
+
+    @Override
+    public void onClick(View view) {
+
+        Log.d("29octV2", "Click ImageAdd");
+
+        switch (view.getId()) {
+
+            case R.id.imageView6:
+                phone1TextView.setText(phoneChooseString);
+                Log.d("29octV2", "Click " + phoneChooseString);
+                break;
+            case R.id.imageView7:
+                phone2TextView.setText(phoneChooseString);
+                break;
+            case R.id.imageView8:
+                phone3TextView.setText(phoneChooseString);
+                break;
+            case R.id.imageView9:
+                phone4TextView.setText(phoneChooseString);
+                break;
+            case R.id.imageView10:
+                phone5TextView.setText(phoneChooseString);
+                break;
+
+
+
+        }   // switch
+
+
+    }   // onClick
 
     private class SynUser extends AsyncTask<String, Void, String> {
 
@@ -95,7 +135,7 @@ public class SettingActivity extends AppCompatActivity {
                 nameStrings = new String[jsonArray.length()];
                 phoneStrings = new String[jsonArray.length()];
 
-                for (int i=0;i<jsonArray.length();i++) {
+                for (int i = 0; i < jsonArray.length(); i++) {
 
                     JSONObject jsonObject = jsonArray.getJSONObject(i);
 
@@ -115,10 +155,11 @@ public class SettingActivity extends AppCompatActivity {
                         Toast.makeText(context, "คุณเลือก " + nameStrings[i],
                                 Toast.LENGTH_SHORT).show();
 
+                        nameChooseString = nameStrings[i];
+                        phoneChooseString = phoneStrings[i];
+
                     }   // onItmeClick
                 });
-
-
 
 
             } catch (Exception e) {
@@ -129,8 +170,6 @@ public class SettingActivity extends AppCompatActivity {
         }
 
     }   // SynUser Class
-
-
 
 
     private void bindWidget() {

@@ -89,7 +89,7 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/textView5"
                         android:textSize="@dimen/h2"
-                        android:textColor="@android:color/background_light" />
+                        android:textColor="@android:color/background_light"/>
 
                     <TextView
                         android:layout_width="match_parent"
