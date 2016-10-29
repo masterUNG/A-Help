@@ -117,7 +117,9 @@
                         android:layout_height="wrap_content"
                         android:id="@+id/textView11"
                         android:textSize="@dimen/h2"
-                        android:textColor="@android:color/background_light" />
+                        android:textColor="@android:color/background_light"
+                        android:layout_weight="1" />
+
                 </LinearLayout>
 
                 <LinearLayout
@@ -170,7 +172,8 @@
 
                     <RadioGroup
                         android:layout_width="match_parent"
-                        android:layout_height="match_parent" >
+                        android:layout_height="match_parent"
+                        android:id="@+id/ragPhone">
 
                         <RadioButton
                             android:layout_width="wrap_content"
