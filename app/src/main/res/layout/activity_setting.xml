@@ -170,6 +170,48 @@
                     android:layout_height="match_parent"
                     android:layout_weight="1">
 
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/h2"
+                        app:srcCompat="@drawable/butdel"
+                        android:id="@+id/imageView6"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/h2"
+                        app:srcCompat="@drawable/butdel"
+                        android:id="@+id/imageView7"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/h2"
+                        app:srcCompat="@drawable/butdel"
+                        android:id="@+id/imageView8"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/h2"
+                        app:srcCompat="@drawable/butdel"
+                        android:id="@+id/imageView9"
+                        android:layout_weight="1" />
+
+                    <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/h2"
+                        app:srcCompat="@drawable/butdel"
+                        android:id="@+id/imageView10"
+                        android:layout_weight="1" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1">
+
                     <RadioGroup
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
