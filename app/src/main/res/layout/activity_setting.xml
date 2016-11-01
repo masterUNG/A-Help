@@ -131,35 +131,35 @@
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
-                        app:srcCompat="@drawable/butdel"
+                        app:srcCompat="@drawable/butadd"
                         android:id="@+id/imageView6"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
-                        app:srcCompat="@drawable/butdel"
+                        app:srcCompat="@drawable/butadd"
                         android:id="@+id/imageView7"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
-                        app:srcCompat="@drawable/butdel"
+                        app:srcCompat="@drawable/butadd"
                         android:id="@+id/imageView8"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
-                        app:srcCompat="@drawable/butdel"
+                        app:srcCompat="@drawable/butadd"
                         android:id="@+id/imageView9"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
-                        app:srcCompat="@drawable/butdel"
+                        app:srcCompat="@drawable/butadd"
                         android:id="@+id/imageView10"
                         android:layout_weight="1" />
                 </LinearLayout>
@@ -174,35 +174,35 @@
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
                         app:srcCompat="@drawable/butdel"
-                        android:id="@+id/imageView6"
+                        android:id="@+id/imageView11"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
                         app:srcCompat="@drawable/butdel"
-                        android:id="@+id/imageView7"
+                        android:id="@+id/imageView12"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
                         app:srcCompat="@drawable/butdel"
-                        android:id="@+id/imageView8"
+                        android:id="@+id/imageView13"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
                         app:srcCompat="@drawable/butdel"
-                        android:id="@+id/imageView9"
+                        android:id="@+id/imageView14"
                         android:layout_weight="1" />
 
                     <ImageView
                         android:layout_width="match_parent"
                         android:layout_height="@dimen/h2"
                         app:srcCompat="@drawable/butdel"
-                        android:id="@+id/imageView10"
+                        android:id="@+id/imageView15"
                         android:layout_weight="1" />
                 </LinearLayout>
 
